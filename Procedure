@@ -19,4 +19,9 @@ FOR HARDWARE connection, Connect "SDA", "SCL", "3V3" and "GND" pins of BME280 se
       "3V3" pin of BME280 sensor <-------> "3V3" pin of Seeed studio nrf52840 board
 
 now connect hardware to the PC/Laptop and paste the code in Arduino IDE.
+
+
+after Compiling and Uploading code to the board , Open nrf connect app and scan for a device.
+You will see a device named "nrf52840" in list , connect that device.
+Go to client section and you wil see incoming values of Temperature, Pressure and Humidity.
           
